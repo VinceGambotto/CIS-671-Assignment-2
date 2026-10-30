@@ -156,8 +156,8 @@ st.write(
 st.header("The Data")
 st.write(
     "Data was obtained from Kaggle with the citation listed below. The dataset itself is from an SQLite "
-    "database that contains 39 columns and 1,880,464 rows of recorded wildfire reports in the United States "
-    "over a 24 year span (1992-2015). The dataset includes variables such as date or reported fire, the cause "
+    "database that contains 39 columns and 1,880,465 rows of recorded wildfire reports in the United States "
+    "over a 24 year span (1992-2015). The dataset includes variables such as date of reported fire, the cause "
     "of the fire, the approximate coordinates as well as the corresponding county and state, the responding "
     "agency, the amount of acres burned, the category of the fire (measuring severeness by total acres burned "
     "by that specific fire) and other detailed variables. Some limitations to this dataset is that it doesn’t "
@@ -221,7 +221,7 @@ st.write(
     "definitive increase in reports in 2012 or 2015. In addition, 1992 and 2015 have roughly the same number of "
     "reported fires while 2015 had nearly 5x the amount of acres burned as 1992. What needs to be looked at now "
     "is how these fires start and where to see if that can help explain these trends. This visualization was "
-    "made using Altair"
+    "made using Altair."
 )
 
 # ---- Chart 2: Tableau Public (the author's own embed code, unchanged) ---------
@@ -638,7 +638,7 @@ st.write(
     "axis uses a log scale, because small fires far outnumber large ones and the log scale allows us to fit the "
     "chart better for a more friendly user experience, and the percentage on the right shows how much the count "
     "changed from blue to orange. Class G fires rose from 58 in 1992 to 292 in 2015, a 403% increase. Also "
-    "looking at Classes F, E and D had 71%, 54% and 25% more fires in 2015 compared to 1993. The total number of "
+    "looking at Classes F, E and D had 71%, 54% and 25% more fires in 2015 compared to 1992. The total number of "
     "reported fires was also higher in 2015, by roughly 6,500 fires, but that alone doesn’t explain the jump in "
     "acres burned. Looking at 1993, about 6,000 fewer fires were reported than in 1992, yet acres burned in "
     "those two years were similar. Looking at the difference, we see that 1992 had more reported fires in the "
